@@ -8,9 +8,11 @@ const conn = mysql.createConnection({
     database: "e_commerce",
 });
 
-conn.connect((error) => {
-    if (error) throw error;
-    console.log("Koneksi Berhasil");
-});
+// conn.connect((error) => {
+//     if (error) throw error;
+//     console.log("Koneksi Berhasil");
+// });
+
+
 
 module.exports = conn;
